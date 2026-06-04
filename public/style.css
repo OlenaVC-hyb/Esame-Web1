@@ -186,9 +186,13 @@ button {
 */
 .nav-link:hover,
 .nav-link.active {
+    color: #ffffff;
+    background:rgba(255, 123, 46, 0,12);
+    border-color: rgba(255,123,46,0,42);
+    transform:translate (-1px);
 }
-
 .nav-link.active {
+    
 }
 
 .hero {

@@ -192,7 +192,7 @@ button {
     transform:translate (-1px);
 }
 .nav-link.active {
-    
+    border-color: #ff7d7d;
 }
 
 .hero {
@@ -630,6 +630,11 @@ a:focus-visible {
 
 .records-table th,
 .records-table td {
+    border-bottom: 1px solid rgba(215,207,188,0,9);
+    padding: 0,6rem 0,6rem;
+    
+    
+    font-size:0,92rem;
 
     text-align: left;
     vertical-align: top;

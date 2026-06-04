@@ -76,12 +76,17 @@ export function createStoryCard({
         <div class="story-card__top">
             <div class="story-card__heading">
                 <p class="story-card__eyebrow">#${sanitizeHTML(story.id)}</p>
-                <h3 class="story-card__title"></h3>
+                <h3 class="story-card__title"><a href "${thearrey}">${title}</a>
+                </h3>
             </div>
             ${actions}
         </div>
 
         <div class="story-card__meta">
+        <span class ="Chip chip -time">${timeLabel}></span>
+            <span class = "chip-chip.autor">${authorLink}</span>
+        }
+
 
         </div>
 

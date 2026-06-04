@@ -56,7 +56,7 @@ async function requestJson(url, errorPrefix) {
     // Poi in caso di errore rella risposta, mandare un messaggio di errore che contenga il prefisso errorPrefix e l'eventuale messaggio di errore restituito dalla fetch
     // Infine restituisci i dati parsati come oggetto, senza manipolarli o trasformarli
     // Controlla sempre anche errori di rete o altri errori imprevisti con un catch e restituisci un messaggio di errore coerente con il prefisso
-    const url = ${ API_BASE }/topstories.json;
+    const url = $({ API_BASE })/topstories.json;
 
     try {
         const data = await requestJson(url, "Errore di recupero");
